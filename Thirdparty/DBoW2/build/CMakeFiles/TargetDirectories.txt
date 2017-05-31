@@ -1,1 +1,0 @@
-/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir
