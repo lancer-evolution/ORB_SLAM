@@ -2,4 +2,4 @@ Example.bag
 
 include/*.bak
 lib/*
-build/*
+build/
