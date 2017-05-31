@@ -37,10 +37,11 @@ set(CMAKE_BUILD_TYPE Debug)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
-LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
+#LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
+SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake_modules/")
 
 find_package(catkin REQUIRED COMPONENTS
-  roscpp tf sensor_msgs image_transport cv_bridge)
+  roscpp tf sensor_msgs image_transport cv_bridge cmake_modules)
 
 find_package(OpenCV REQUIRED)
 find_package(Eigen3 REQUIRED)

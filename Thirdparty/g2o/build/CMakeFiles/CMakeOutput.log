@@ -28,30 +28,30 @@ The CXX compiler identification is GNU, found in "/home/kazuhiro/ROS/svo_ws/src/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1617189886/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1617189886.dir/build.make CMakeFiles/cmTryCompileExec1617189886.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3809926672/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3809926672.dir/build.make CMakeFiles/cmTryCompileExec3809926672.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1617189886.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1617189886.dir/testCCompiler.c.o   -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec1617189886
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1617189886.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTryCompileExec1617189886.dir/testCCompiler.c.o  -o cmTryCompileExec1617189886 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3809926672.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3809926672.dir/testCCompiler.c.o   -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3809926672
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3809926672.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec3809926672.dir/testCCompiler.c.o  -o cmTryCompileExec3809926672 -rdynamic 
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2681524579/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2681524579.dir/build.make CMakeFiles/cmTryCompileExec2681524579.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec690316313/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec690316313.dir/build.make CMakeFiles/cmTryCompileExec690316313.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2681524579.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2681524579.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec2681524579
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2681524579.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2681524579.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2681524579 -rdynamic  
+Building C object CMakeFiles/cmTryCompileExec690316313.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec690316313.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec690316313
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec690316313.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec690316313.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec690316313 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -61,8 +61,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2681524579' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2681524579 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2681524579.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec690316313' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec690316313 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec690316313.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -70,15 +70,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2681524579/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2681524579.dir/build.make CMakeFiles/cmTryCompileExec2681524579.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec690316313/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec690316313.dir/build.make CMakeFiles/cmTryCompileExec690316313.dir/build]
   ignore line: [make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります]
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec2681524579.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2681524579.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec2681524579]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2681524579.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2681524579.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2681524579 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec690316313.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec690316313.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec690316313]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec690316313.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec690316313.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec690316313 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -88,8 +88,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2681524579' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2681524579 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2681524579.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec690316313' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec690316313 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec690316313.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -103,7 +103,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec2681524579] ==> ignore
+    arg [cmTryCompileExec690316313] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec2681524579.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec690316313.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -149,15 +149,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4193753061/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4193753061.dir/build.make CMakeFiles/cmTryCompileExec4193753061.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1412917765/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1412917765.dir/build.make CMakeFiles/cmTryCompileExec1412917765.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4193753061.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec4193753061.dir/feature_tests.c.o   -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec4193753061
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4193753061.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTryCompileExec4193753061.dir/feature_tests.c.o  -o cmTryCompileExec4193753061 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1412917765.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec1412917765.dir/feature_tests.c.o   -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1412917765
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1412917765.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec1412917765.dir/feature_tests.c.o  -o cmTryCompileExec1412917765 -rdynamic 
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -170,15 +170,15 @@ make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1742472686/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1742472686.dir/build.make CMakeFiles/cmTryCompileExec1742472686.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2664171704/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2664171704.dir/build.make CMakeFiles/cmTryCompileExec2664171704.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1742472686.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec1742472686.dir/feature_tests.c.o   -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec1742472686
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1742472686.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTryCompileExec1742472686.dir/feature_tests.c.o  -o cmTryCompileExec1742472686 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2664171704.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec2664171704.dir/feature_tests.c.o   -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2664171704
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2664171704.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec2664171704.dir/feature_tests.c.o  -o cmTryCompileExec2664171704 -rdynamic 
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -191,15 +191,15 @@ make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3620609479/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3620609479.dir/build.make CMakeFiles/cmTryCompileExec3620609479.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3395845757/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3395845757.dir/build.make CMakeFiles/cmTryCompileExec3395845757.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3620609479.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec3620609479.dir/feature_tests.c.o   -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec3620609479
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3620609479.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTryCompileExec3620609479.dir/feature_tests.c.o  -o cmTryCompileExec3620609479 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec3395845757.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec3395845757.dir/feature_tests.c.o   -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3395845757
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3395845757.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTryCompileExec3395845757.dir/feature_tests.c.o  -o cmTryCompileExec3395845757 -rdynamic 
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -210,30 +210,30 @@ make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1647714124/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1647714124.dir/build.make CMakeFiles/cmTryCompileExec1647714124.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1315697856/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1315697856.dir/build.make CMakeFiles/cmTryCompileExec1315697856.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1647714124.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1647714124.dir/testCXXCompiler.cxx.o -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec1647714124
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1647714124.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTryCompileExec1647714124.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1647714124 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1315697856.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1315697856.dir/testCXXCompiler.cxx.o -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1315697856
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1315697856.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTryCompileExec1315697856.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1315697856 -rdynamic 
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3344860572/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3344860572.dir/build.make CMakeFiles/cmTryCompileExec3344860572.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3680795974/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3680795974.dir/build.make CMakeFiles/cmTryCompileExec3680795974.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3344860572.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3344860572.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec3344860572
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3344860572.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3344860572.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3344860572 -rdynamic  
+Building CXX object CMakeFiles/cmTryCompileExec3680795974.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3680795974.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3680795974
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3680795974.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3680795974.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3680795974 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -243,8 +243,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3344860572' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3344860572 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3344860572.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3680795974' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3680795974 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3680795974.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -252,15 +252,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3344860572/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3344860572.dir/build.make CMakeFiles/cmTryCompileExec3344860572.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3680795974/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3680795974.dir/build.make CMakeFiles/cmTryCompileExec3680795974.dir/build]
   ignore line: [make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります]
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3344860572.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3344860572.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec3344860572]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3344860572.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3344860572.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3344860572 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3680795974.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3680795974.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3680795974]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3680795974.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3680795974.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3680795974 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -270,8 +270,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3344860572' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3344860572 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3344860572.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3680795974' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3680795974 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3680795974.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -285,7 +285,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec3344860572] ==> ignore
+    arg [cmTryCompileExec3680795974] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -297,7 +297,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec3344860572.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3680795974.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -329,15 +329,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec608862184/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec608862184.dir/build.make CMakeFiles/cmTryCompileExec608862184.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec680508617/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec680508617.dir/build.make CMakeFiles/cmTryCompileExec680508617.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec608862184.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec608862184.dir/feature_tests.cxx.o -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec608862184
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec608862184.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTryCompileExec608862184.dir/feature_tests.cxx.o  -o cmTryCompileExec608862184 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec680508617.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec680508617.dir/feature_tests.cxx.o -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec680508617
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec680508617.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTryCompileExec680508617.dir/feature_tests.cxx.o  -o cmTryCompileExec680508617 -rdynamic 
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -400,15 +400,15 @@ make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1706453123/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1706453123.dir/build.make CMakeFiles/cmTryCompileExec1706453123.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1991912367/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1991912367.dir/build.make CMakeFiles/cmTryCompileExec1991912367.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1706453123.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec1706453123.dir/feature_tests.cxx.o -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec1706453123
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1706453123.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTryCompileExec1706453123.dir/feature_tests.cxx.o  -o cmTryCompileExec1706453123 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1991912367.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec1991912367.dir/feature_tests.cxx.o -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1991912367
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1991912367.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTryCompileExec1991912367.dir/feature_tests.cxx.o  -o cmTryCompileExec1991912367 -rdynamic 
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -471,15 +471,15 @@ make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2946242235/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2946242235.dir/build.make CMakeFiles/cmTryCompileExec2946242235.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec128083103/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec128083103.dir/build.make CMakeFiles/cmTryCompileExec128083103.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2946242235.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec2946242235.dir/feature_tests.cxx.o -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec2946242235
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2946242235.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTryCompileExec2946242235.dir/feature_tests.cxx.o  -o cmTryCompileExec2946242235 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec128083103.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec128083103.dir/feature_tests.cxx.o -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec128083103
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec128083103.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTryCompileExec128083103.dir/feature_tests.cxx.o  -o cmTryCompileExec128083103 -rdynamic 
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -540,15 +540,15 @@ make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g
 Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3850665553/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3850665553.dir/build.make CMakeFiles/cmTryCompileExec3850665553.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1022876949/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1022876949.dir/build.make CMakeFiles/cmTryCompileExec1022876949.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3850665553.dir/src.c.o
-/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec3850665553.dir/src.c.o   -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTryCompileExec3850665553
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3850665553.dir/link.txt --verbose=1
-/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   CMakeFiles/cmTryCompileExec3850665553.dir/src.c.o  -o cmTryCompileExec3850665553 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1022876949.dir/src.c.o
+/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec1022876949.dir/src.c.o   -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1022876949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1022876949.dir/link.txt --verbose=1
+/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   CMakeFiles/cmTryCompileExec1022876949.dir/src.c.o  -o cmTryCompileExec1022876949 -rdynamic 
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 Source file was:
@@ -565,15 +565,15 @@ int main() {
 Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
 Change Dir: /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1931863045/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1931863045.dir/build.make CMakeFiles/cmTryCompileExec1931863045.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2039498886/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2039498886.dir/build.make CMakeFiles/cmTryCompileExec2039498886.dir/build
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' に入ります
 /usr/bin/cmake -E cmake_progress_report /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1931863045.dir/src.cxx.o
-/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec1931863045.dir/src.cxx.o -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTryCompileExec1931863045
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1931863045.dir/link.txt --verbose=1
-/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   CMakeFiles/cmTryCompileExec1931863045.dir/src.cxx.o  -o cmTryCompileExec1931863045 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2039498886.dir/src.cxx.o
+/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec2039498886.dir/src.cxx.o -c /home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2039498886
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2039498886.dir/link.txt --verbose=1
+/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   CMakeFiles/cmTryCompileExec2039498886.dir/src.cxx.o  -o cmTryCompileExec2039498886 -rdynamic 
 make[1]: ディレクトリ `/home/kazuhiro/ROS/svo_ws/src/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp' から出ます
 
 Source file was:
