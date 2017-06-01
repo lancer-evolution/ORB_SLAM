@@ -1,3 +1,5 @@
 Example.bag
 Data/ORBvoc.txt
 *.backup
+build/*
+lib/*
