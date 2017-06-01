@@ -52,6 +52,7 @@ We make use of some components of the DBoW2 and DLib library (see original at ht
 
 2. Build g2o. Go into `ORB_SLAM/Thirdparty/g2o/` and execute:
 
+		mkdir build
 		cd build
 		cmake .. -DCMAKE_BUILD_TYPE=Release
 		make
@@ -60,6 +61,7 @@ We make use of some components of the DBoW2 and DLib library (see original at ht
 
 5. Build DBoW2. Go into `ORB_SLAM/Thirdparty/DBoW2/`and execute:
 
+		mkdir build
 		cd build
 		cmake ..
 		make
