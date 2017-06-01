@@ -1,28 +1,15 @@
-
-##Check out our new [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) (Monocular, Stereo and RGB-D)
----
 # ORB-SLAM Monocular
-**Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2))
 
-**Current version:** 1.0.1 (see [Changelog.md](https://github.com/raulmur/ORB_SLAM/blob/master/Changelog.md))
+本家の[ORB_SLAM](https://github.com/raulmur/ORB_SLAM)では`rosbuild`でビルドしており、自分の環境では動かなかったので`catkin`でビルドできるように修正した．
 
-ORB-SLAM is a versatile and accurate Monocular SLAM solution able to compute in real-time the camera trajectory and a sparse 3D reconstruction of the scene in a wide variety of environments, ranging from small hand-held sequences to a car driven around several city blocks. It is able to close large loops and perform global relocalisation in real-time and from wide baselines.
+##### 実行環境
+ubuntu 14.04
+ROS indigo
+OpenCV 2.4.10
 
-See our project webpage: http://webdiis.unizar.es/~raulmur/orbslam/
+# 1. License
 
-###Related Publications:
-
-[1] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. **ORB-SLAM: A Versatile and Accurate Monocular SLAM System**. *IEEE Transactions on Robotics,* vol. 31, no. 5, pp. 1147-1163, 2015. (2015 IEEE Transactions on Robotics **Best Paper Award**). **[PDF](http://webdiis.unizar.es/~raulmur/MurMontielTardosTRO15.pdf)**.
-
-[2] Dorian Gálvez-López and Juan D. Tardós. **Bags of Binary Words for Fast Place Recognition in Image Sequences**. *IEEE Transactions on Robotics,* vol. 28, no. 5, pp.  1188-1197, 2012. **[PDF](http://doriangalvez.com/php/dl.php?dlp=GalvezTRO12.pdf)**.
-
-
-#1. License
-
-ORB-SLAM is released under a [GPLv3 license](https://github.com/raulmur/ORB_SLAM/blob/master/License-gpl.txt). For a list of all code/library dependencies (and associated licenses), please see [Dependencies.md](https://github.com/raulmur/ORB_SLAM/blob/master/Dependencies.md).
-
-For a closed-source version of ORB-SLAM for commercial purposes, please contact the authors: orbslam (at) unizar (dot) es. 
-
+ORB-SLAM is released under a [GPLv3 license]
 If you use ORB-SLAM in an academic work, please cite:
 
     @article{murAcceptedTRO2015,
@@ -37,75 +24,50 @@ If you use ORB-SLAM in an academic work, please cite:
      }
 
 
-#2. Prerequisites (dependencies)
+# 2. Prerequisites (dependencies)
 
-##2.1 Boost
+## 2.1 Boost
 
-We use the Boost library to launch the different threads of our SLAM system.
+	sudo apt-get install libboost-all-dev
 
-	sudo apt-get install libboost-all-dev 
+## 2.2 OpenCV 2.4.10
+Dowload and install instructions can be found at: http://opencv.org/
 
-##2.2 ROS
-We use ROS to receive images from the camera or from a recorded sequence (rosbag), and for visualization (rviz, image_view). 
-**We have tested ORB-SLAM in Ubuntu 12.04 with ROS Fuerte, Groovy and Hydro; and in Ubuntu 14.04 with ROS Indigo**. 
-If you do not have already installed ROS in your computer, we recommend you to install the Full-Desktop version of ROS Fuerte (http://wiki.ros.org/fuerte/Installation/Ubuntu).
-
-**If you use ROS Indigo, remove the depency of opencv2 in the manifest.xml.**
-
-##2.3 OpenCV
-We use OpenCV to manipulate images and features. If you use a ROS version older than ROS Indigo, OpenCV is already included in the ROS distribution. In newer version of ROS, OpenCV is not included and you will need to install it. **We tested OpenCV 2.4**. Dowload and install instructions can be found at: http://opencv.org/
-
-##2.4 g2o (included in Thirdparty)
+## 2.3 g2o (included in Thirdparty) with Eigen3
 We use a modified version of g2o (see original at https://github.com/RainerKuemmerle/g2o) to perform optimizations.
 In order to compile g2o you will need to have installed Eigen3 (at least 3.1.0).
 	
 	sudo apt-get install libeigen3-dev
 
-##2.5 DBoW2 (included in Thirdparty)
+##2.5 DBoW2 (included in Thirdparty) 
 We make use of some components of the DBoW2 and DLib library (see original at https://github.com/dorian3d/DBoW2) for place recognition and feature matching. There are no additional dependencies to compile DBoW2.
-
 
 #3. Installation
 
-1. Make sure you have installed ROS and all library dependencies (boost, eigen3, opencv, blas, lapack).
+1. preparations
+		git clone git@github.com:lancer-evolution/ORB_SLAM.git -b catkin
+		echo "export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:PATH_TO_PARENT_OF_ORB_SLAM" >> ~/.bashrc
+		source ~/.bashrc
+`PATH_TO_PARENT_OF_ORB_SLAM`は各々の`ORB_SLAM`パッケージへのパス
 
-2. Clone the repository:
+2. Build g2o. Go into `ORB_SLAM/Thirdparty/g2o/` and execute:
 
-		git clone https://github.com/raulmur/ORB_SLAM.git ORB_SLAM
-		
-3. Add the path where you cloned ORB-SLAM to the `ROS_PACKAGE_PATH` environment variable. To do this, modify your .bashrc and add at the bottom the following line (replace PATH_TO_PARENT_OF_ORB_SLAM):
-
-		export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:PATH_TO_PARENT_OF_ORB_SLAM
-
-4. Build g2o. Go into `Thirdparty/g2o/` and execute:
-
-		mkdir build
 		cd build
 		cmake .. -DCMAKE_BUILD_TYPE=Release
-		make 
-
-	*Tip: To achieve the best performance in your computer, set your favorite compilation flags in line 61 and 62 of* `Thirdparty/g2o/CMakeLists.txt` 
-		  (by default -03 -march=native)
-
-5. Build DBoW2. Go into Thirdparty/DBoW2/ and execute:
-
-		mkdir build
-		cd build
-		cmake .. -DCMAKE_BUILD_TYPE=Release
-		make  
-
-	*Tip: Set your favorite compilation flags in line 4 and 5 of* `Thirdparty/DBoW2/CMakeLists.txt` (by default -03 -march=native)
-
-6. Build ORB_SLAM. In the ORB_SLAM root execute:
-
-	**If you use ROS Indigo, remove the depency of opencv2 in the manifest.xml.**
-
-		mkdir build
-		cd build
-		cmake .. -DROS_BUILD_TYPE=Release
 		make
 
-	*Tip: Set your favorite compilation flags in line 12 and 13 of* `./CMakeLists.txt` (by default -03 -march=native)
+	*Tip: To achieve the best performance in your computer, set your favorite compilation flags in line 61 and 62 of* `Thirdparty/g2o/CMakeLists.txt`(by default -03 -march=native)
+
+5. Build DBoW2. Go into `ORB_SLAM/Thirdparty/DBoW2/`and execute:
+
+		cd build
+		cmake ..
+		make
+	*Tip: Set your favorite compilation flags in line 4 and 5 of* `Thirdparty/DBoW2/CMakeLists.txt`(by default -03 -march=native)
+
+4. Build ORB_SLAM.
+		cd ~/catkin_ws
+		catkin_make
 
 #4. Usage
 
@@ -113,38 +75,28 @@ We make use of some components of the DBoW2 and DLib library (see original at ht
 
 1. Launch ORB-SLAM from the terminal (`roscore` should have been already executed):
 
-		rosrun ORB_SLAM ORB_SLAM PATH_TO_VOCABULARY PATH_TO_SETTINGS_FILE
+		rosrun ORB_SLAM ORB_SLAM Data/ORBvoc.txt Data/Settings.yaml
 
-  You have to provide the path to the ORB vocabulary and to the settings file. The paths must be absolute or relative   to the ORB_SLAM directory.  
-  We already provide the vocabulary file we use in `ORB_SLAM/Data/ORBvoc.txt.tar.gz`. Uncompress the file, as it will be loaded much faster.
+  ここで、引数はORB vocabulary と settings fileのパスである.  
+  `ORBvoc.txt`は`ORB_SLAM/Data/ORBvoc.txt.tar.gz`を事前に展開しておく. 
 
-2. The last processed frame is published to the topic `/ORB_SLAM/Frame`. You can visualize it using `image_view`:
+2. 特徴点の抽出状況は`/ORB_SLAM/Frame`で配信されており，それを`image_view`で見ることができる:
 
 		rosrun image_view image_view image:=/ORB_SLAM/Frame _autosize:=true
 
-3. The map is published to the topic `/ORB_SLAM/Map`, the current camera pose and global world coordinate origin are sent through `/tf` in frames `/ORB_SLAM/Camera` and `/ORB_SLAM/World` respectively.  Run `rviz` to visualize the map:
-	
-	*in ROS Fuerte*:
-
-		rosrun rviz rviz -d Data/rviz.vcg
-
-	*in ROS Groovy or a newer version*:
+3. マップは`/ORB_SLAM/Map`で配信されており, 現在のカメラポーズとワールド座標系は`/tf` の `/ORB_SLAM/Camera` と `/ORB_SLAM/World` で配信されている.  マップを見るために `rviz` を起動する:
 
 		rosrun rviz rviz -d Data/rviz.rviz
 
-4. ORB_SLAM will receive the images from the topic `/camera/image_raw`. You can now play your rosbag or start your camera node. 
-If you have a sequence with individual image files, you will need to generate a bag from them. We provide a tool to do that: https://github.com/raulmur/BagFromImages.
+4. ORB_SLAM は `/camera/image_raw`からカメラ情報を取得している. よって、このトピックでカメラの情報をPublishしてやればいい．  
+もし、連続的なカメラ画像のみがあるのであれば、https://github.com/raulmur/BagFromImages を使えば、画像群からbagファイルを作ってくれるらしい.
 
 
-**Tip: Use a roslaunch to launch `ORB_SLAM`, `image_view` and `rviz` from just one instruction. We provide an example**:
-
-*in ROS Fuerte*:
-
-	roslaunch ExampleFuerte.launch
+**Tip: 以上の`ORB_SLAM`, `image_view` and `rviz` を一括で起動するlaunchファイルは以下のとおりである**:
 
 *in ROS Groovy or a newer version*:
 
-	roslaunch ExampleGroovyOrNewer.launch
+	roslaunch ORB_SLAM ExampleGroovyOrNewer.launch
 
 
 #5. Example Sequence
