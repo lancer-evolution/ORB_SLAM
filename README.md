@@ -39,10 +39,10 @@ In order to compile g2o you will need to have installed Eigen3 (at least 3.1.0).
 	
 	sudo apt-get install libeigen3-dev
 
-##2.5 DBoW2 (included in Thirdparty) 
+## 2.5 DBoW2 (included in Thirdparty) 
 We make use of some components of the DBoW2 and DLib library (see original at https://github.com/dorian3d/DBoW2) for place recognition and feature matching. There are no additional dependencies to compile DBoW2.
 
-#3. Installation
+# 3. Installation
 
 1. preparations
 		git clone git@github.com:lancer-evolution/ORB_SLAM.git -b catkin
@@ -69,7 +69,7 @@ We make use of some components of the DBoW2 and DLib library (see original at ht
 		cd ~/catkin_ws
 		catkin_make
 
-#4. Usage
+# 4. Usage
 
 **See section 5 to run the Example Sequence**.
 
@@ -94,12 +94,10 @@ We make use of some components of the DBoW2 and DLib library (see original at ht
 
 **Tip: 以上の`ORB_SLAM`, `image_view` and `rviz` を一括で起動するlaunchファイルは以下のとおりである**:
 
-*in ROS Groovy or a newer version*:
-
 	roslaunch ORB_SLAM ExampleGroovyOrNewer.launch
 
 
-#5. Example Sequence
+# 5. Example Sequence
 We provide the settings and the rosbag of an example sequence in our lab. In this sequence you will see a loop closure and two relocalisation from a big viewpoint change.
 
 1. Download the rosbag file:  
@@ -124,13 +122,13 @@ We provide the settings and the rosbag of an example sequence in our lab. In thi
 		rosbag play --pause Example.bag
 
 
-#6. The Settings File
+# 6. The Settings File
 
 ORB_SLAM reads the camera calibration and setting parameters from a YAML file. We provide an example in `Data/Settings.yaml`, where you will find all parameters and their description. We use the camera calibration model of OpenCV.
 
 Please make sure you write and call your own settings file for your camera (copy the example file and modify the calibration)
 
-#7. Failure Modes
+# 7. Failure Modes
 
 You should expect to achieve good results in sequences similar to those in which we show results in our paper [1], in terms of camera movement and texture in the environment. In general our Monocular SLAM solution is expected to have a bad time in the following situations:
 - No translation at system initialization (or too much rotation).
