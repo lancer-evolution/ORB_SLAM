@@ -76,8 +76,7 @@ We make use of some components of the DBoW2 and DLib library (see original at ht
 1. Launch ORB-SLAM from the terminal (`roscore` should have been already executed):
 
 		rosrun ORB_SLAM ORB_SLAM Data/ORBvoc.txt Data/Settings.yaml
-
-  ここで、引数はORB vocabulary と settings fileのパスである.  
+ここで、引数はORB vocabulary と settings fileのパスである.  
   `ORBvoc.txt`は`ORB_SLAM/Data/ORBvoc.txt.tar.gz`を事前に展開しておく. 
 
 2. 特徴点の抽出状況は`/ORB_SLAM/Frame`で配信されており，それを`image_view`で見ることができる:

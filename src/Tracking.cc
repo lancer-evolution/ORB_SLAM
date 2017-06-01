@@ -432,9 +432,9 @@ void Tracking::CreateInitialMap(cv::Mat &Rcw, cv::Mat &tcw)
 
     // Bundle Adjustment
     ROS_INFO("New Map created with %d points",mpMap->MapPointsInMap());
-	ROS_INFO_STREAM("55");
+
     Optimizer::GlobalBundleAdjustemnt(mpMap,20);
-	ROS_INFO_STREAM("dd");
+
     // Set median depth to 1
     float medianDepth = pKFini->ComputeSceneMedianDepth(2);
     float invMedianDepth = 1.0f/medianDepth;
